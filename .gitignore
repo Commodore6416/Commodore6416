@@ -1,3 +1,6 @@
+# Cloned repositories (managed separately)
+monero/
+
 # OS Files
 .DS_Store
 .DS_Store?
