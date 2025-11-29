@@ -7,6 +7,7 @@ Personal development and cryptocurrency research repository.
 This repository contains configuration files and documentation for various projects, including:
 
 - **Monero Fork:** A fork of the Monero cryptocurrency project for learning and community participation
+- **Cybersecurity Resources:** Comprehensive guide to security tools, frameworks, and educational resources
 - Development configurations and tools
 - Personal GitHub profile customization
 
@@ -45,9 +46,26 @@ See [MONERO.md](MONERO.md) for detailed information about:
 - Building and development
 - Privacy and security features
 
+### Cybersecurity Resources
+
+Comprehensive guide to security tools, frameworks, and learning resources.
+
+See [SECURITY_RESOURCES.md](SECURITY_RESOURCES.md) for:
+- Educational platforms and CTF challenges
+- Penetration testing tools and frameworks
+- Defensive security and blue team tools
+- Bug bounty platforms and programs
+- Privacy and personal security tools
+- Reverse engineering and malware analysis
+- Digital forensics and incident response
+- AI-powered security tools
+- Learning paths and certifications
+
 ### Development Files
 
 - **CLAUDE.MD:** AI assistant documentation and project guidelines
+- **SECURITY_RESOURCES.md:** Comprehensive cybersecurity tools and resources guide
+- **MONERO.md:** Monero cryptocurrency fork documentation
 - **README.md:** This file
 - **LICENSE:** MIT License
 
