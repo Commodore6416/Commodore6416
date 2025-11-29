@@ -59,6 +59,8 @@ See [SECURITY_RESOURCES.md](SECURITY_RESOURCES.md) for:
 - Reverse engineering and malware analysis
 - Digital forensics and incident response
 - AI-powered security tools
+- OPSEC (Operational Security) best practices
+- Blockchain and cryptocurrency security (smart contracts, wallets, cryptography)
 - Learning paths and certifications
 
 ### Development Files

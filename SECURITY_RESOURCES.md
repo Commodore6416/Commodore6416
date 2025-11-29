@@ -15,8 +15,10 @@ This comprehensive guide contains the latest security tools, frameworks, and res
 6. [Reverse Engineering & Malware Analysis](#reverse-engineering--malware-analysis)
 7. [Digital Forensics & Incident Response](#digital-forensics--incident-response)
 8. [AI-Powered Security Tools](#ai-powered-security-tools)
-9. [Learning Paths & Certifications](#learning-paths--certifications)
-10. [GitHub Security Resources](#github-security-resources)
+9. [OPSEC (Operational Security)](#opsec-operational-security)
+10. [Blockchain & Cryptocurrency Security](#blockchain--cryptocurrency-security)
+11. [Learning Paths & Certifications](#learning-paths--certifications)
+12. [GitHub Security Resources](#github-security-resources)
 
 ---
 
@@ -548,6 +550,483 @@ This comprehensive guide contains the latest security tools, frameworks, and res
 
 ---
 
+## OPSEC (Operational Security)
+
+### What is OPSEC?
+
+OPSEC is a security and risk management process that prevents sensitive information from getting into the wrong hands. The term was coined by the U.S. military during the Vietnam War (1966) and is now critical for cybersecurity in 2025.
+
+**Definition:** Identifying seemingly innocuous actions that could inadvertently reveal critical or sensitive data to cybercriminals.
+
+### The 5-Step OPSEC Process
+
+1. **Identify Critical Information** - Determine what data needs protection
+2. **Analyze Threats** - Identify who might want your information
+3. **Analyze Vulnerabilities** - Find weak points in your security
+4. **Assess Risks** - Evaluate likelihood and impact of threats
+5. **Apply Countermeasures** - Implement protective measures
+
+### 2025 Threat Landscape
+
+Modern OPSEC faces sophisticated threats:
+
+- **Insider Breaches:** Internal threat actors
+- **Behavioral Profiling:** AI-driven pattern analysis
+- **Social Engineering:** Advanced AI-generated attacks
+- **Cross-Channel Fingerprinting:** Identity correlation across platforms
+- **Stylometry:** Writing pattern analysis to de-anonymize users
+- **Social Media Reconnaissance:** Pre-attack intelligence gathering
+
+### OPSEC Tools for 2025
+
+#### Privacy Operating Systems
+
+##### 1. **Tails OS**
+- **Description:** Routes all traffic through Tor network
+- **Features:** Digital footprint disappears after each session
+- **Best For:** Maximum anonymity
+- **URL:** https://tails.boum.org
+
+##### 2. **Whonix**
+- **Description:** Tor-based OS running in VMs
+- **Features:** Isolates network traffic
+- **Best For:** Secure computing environment
+
+#### Encryption Tools
+
+##### 3. **PGP/GPG**
+- **Description:** Email and file encryption standard
+- **GPG:** Free, open-source alternative
+- **Best For:** Encrypted communications
+- **Features:** Public key cryptography, digital signatures
+
+##### 4. **VeraCrypt**
+- **Type:** Disk encryption software
+- **Features:** Create encrypted volumes, full disk encryption
+- **Best For:** Protecting stored data
+- **Encryption:** AES, Serpent, Twofish
+
+#### Secure Password Management
+
+##### 5. **KeePassXC**
+- **Type:** Offline password manager
+- **Features:** AES encryption, local database
+- **Best For:** Air-gapped password storage
+- **Open Source:** Yes
+
+#### Communication Security
+
+##### 6. **Session**
+- **Type:** Encrypted messaging
+- **Features:** No phone number required, onion routing
+- **Best For:** Anonymous communication
+
+##### 7. **Briar**
+- **Type:** Peer-to-peer encrypted messaging
+- **Features:** Works offline via Bluetooth/WiFi
+- **Best For:** Communication without internet
+
+### OPSEC Best Practices 2025
+
+#### Continuous Behavioral Shield
+
+OPSEC is not a checklist—it's an ongoing process requiring:
+
+1. **Regular Training:** Recognize subtle threats
+2. **Secure Habits:** Enforce across all communication channels
+3. **Ongoing Evaluation:** Continuously assess and adapt
+4. **Audit Regularly:** Review security practices
+5. **Automate Where Possible:** Reduce human error
+
+#### Critical OPSEC Principles
+
+- **Least Privilege:** Restrict access to minimum necessary
+- **Compartmentalization:** Separate sensitive information
+- **Need-to-Know:** Share only what's necessary
+- **Verify Trust:** Authenticate before sharing sensitive data
+- **Assume Compromise:** Plan for breach scenarios
+
+### Common OPSEC Failures
+
+Most OPSEC failures stem from:
+
+- **Oversights:** Missing critical security steps
+- **Negligence:** Ignoring security protocols
+- **Risky Behaviors:** Unsafe practices
+- **Social Media Oversharing:** Revealing too much information
+- **Reusing Credentials:** Same passwords across services
+- **Ignoring Updates:** Not patching systems
+- **Trusting Public Networks:** Using unsecured WiFi
+
+### OPSEC for Different Scenarios
+
+#### Personal OPSEC
+
+- Use VPN on all connections
+- Enable 2FA/MFA everywhere
+- Limit personal information online
+- Review privacy settings regularly
+- Use burner emails for signups
+- Compartmentalize online identities
+
+#### Professional OPSEC
+
+- Follow company security policies
+- Use encrypted communication for sensitive data
+- Secure physical workspaces
+- Implement DLP (Data Loss Prevention) systems
+- Regular security awareness training
+- Incident response planning
+
+#### Activist/Journalist OPSEC
+
+- Use Tails OS or Whonix
+- Communicate via PGP-encrypted email
+- Use Signal/Session for messaging
+- Protect source identities
+- Use Tor Browser
+- Avoid metadata leaks
+
+### Data Loss Prevention (DLP)
+
+Modern OPSEC tools include:
+
+- **Access Management Platforms:** Control who accesses what
+- **Digital Footprint Monitoring:** Track your online presence
+- **Training Platforms:** Educate team members
+- **SIEM Integration:** Detect anomalous behavior
+
+### OPSEC Education Resources
+
+- **Remember:** Tools alone are not enough—education is key
+- **Practice:** Regular drills and exercises
+- **Stay Updated:** Threat landscape constantly evolves
+- **Community:** Learn from others' experiences
+
+### 2025 OPSEC Recommendations
+
+1. **Multi-Layered Security:** Defense in depth
+2. **Zero Trust Model:** Verify everything
+3. **Encryption by Default:** Protect all sensitive data
+4. **Regular Audits:** Test security measures
+5. **Incident Response Plan:** Be prepared for breaches
+6. **Privacy-Focused Tools:** Use trusted, open-source solutions
+7. **Minimize Digital Footprint:** Reduce attack surface
+
+---
+
+## Blockchain & Cryptocurrency Security
+
+### Smart Contract Security
+
+#### Static Analysis Tools
+
+##### 1. **Slither**
+- **Developer:** Trail of Bits
+- **Language:** Python
+- **Features:** 93 vulnerability detectors, CI/CD integration
+- **Supports:** Solidity 0.4+
+- **Best For:** Automated contract analysis
+- **URL:** https://github.com/crytic/slither
+
+##### 2. **Aderyn**
+- **Language:** Rust-based
+- **Features:** AST traversal, markdown reports
+- **Best For:** Fast Solidity vulnerability detection
+- **Type:** Static analysis
+
+##### 3. **Securify**
+- **Developer:** ChainSecurity & Ethereum Foundation
+- **Supports:** Solidity 0.5.8+
+- **Features:** Dependency analysis, compliance checking
+- **Best For:** Automated safety assessment
+
+#### Symbolic Execution & Formal Verification
+
+##### 4. **Mythril**
+- **Language:** Python
+- **Features:** Taint analysis, symbolic execution
+- **Supports:** Multiple blockchains (Ethereum, etc.)
+- **Input:** EVM bytecode
+- **Best For:** Advanced vulnerability detection
+
+##### 5. **MythX**
+- **Type:** Cloud-based static analysis
+- **Features:** Symbolic analysis
+- **Integrations:** Remix, VSCode, Truffle
+- **Languages:** Solidity, Vyper
+- **Best For:** Accessible security scanning
+
+##### 6. **Halmos**
+- **Developer:** a16z
+- **Type:** Formal verification
+- **Method:** Bounded symbolic execution
+- **Best For:** Proving contract correctness
+
+#### Fuzzing Tools
+
+##### 7. **Echidna**
+- **Type:** Property-based fuzzer
+- **Platform:** Ethereum smart contracts
+- **Best For:** Finding edge cases
+- **Method:** Automated testing with random inputs
+
+##### 8. **Medusa**
+- **Type:** Cross-platform fuzzer
+- **Inspired By:** Echidna
+- **Features:** Parallelized testing, CLI/API
+- **Best For:** Custom testing methods
+
+#### AI-Powered Auditing
+
+##### 9. **QuillShield**
+- **Type:** AI-powered security analysis
+- **Features:** Detects logical errors beyond common vulnerabilities
+- **Best For:** Enhanced smart contract auditing
+
+##### 10. **AuditBase**
+- **Training:** 14,000+ Solidity audit reports
+- **Technology:** Next-gen LLM
+- **Features:** Business logic error detection
+- **URL:** https://www.auditbase.com
+
+#### Development Frameworks
+
+##### 11. **Foundry**
+- **Type:** Smart contract development suite
+- **Features:** Testing, deployment, blockchain interaction
+- **Best For:** Comprehensive development and auditing
+- **URL:** https://getfoundry.sh
+
+##### 12. **Hardhat**
+- **Type:** Ethereum development environment
+- **Features:** Testing, debugging, deployments
+- **Plugins:** Extensive ecosystem
+
+#### Vulnerability Databases
+
+##### 13. **Solodit**
+- **Type:** Vulnerability aggregator
+- **Database:** 8,000+ vulnerabilities
+- **Sources:** Multiple bug bounty platforms
+- **Best For:** Research and learning from past exploits
+
+### Blockchain Security Platforms
+
+#### Comprehensive Audit Services
+
+##### 1. **CertiK**
+- **Type:** Blockchain security auditor
+- **Services:** Smart contract audits, blockchain analysis
+- **URL:** https://www.certik.com
+- **Best For:** Professional security audits
+
+##### 2. **OpenZeppelin**
+- **Services:** Audits, security tools, libraries
+- **Defender:** Security operations platform
+- **URL:** https://openzeppelin.com
+
+##### 3. **Consensys Diligence**
+- **Services:** Smart contract audits
+- **Tools:** MythX integration
+- **URL:** https://diligence.consensys.io
+
+### Cryptocurrency Wallet Security
+
+#### Hardware Wallets (Most Secure)
+
+##### 1. **Ledger**
+- **Models:** Nano S Plus, Nano X, Stax
+- **Security:** Secure Element chip
+- **Supports:** 5,500+ cryptocurrencies
+- **Best For:** Long-term storage
+
+##### 2. **Trezor**
+- **Models:** Model One, Model T
+- **Security:** Open-source firmware
+- **Features:** Passphrase protection, Shamir backup
+- **Best For:** Bitcoin and crypto storage
+
+##### 3. **BitBox**
+- **Models:** BitBox02
+- **Security:** Swiss-made, open-source
+- **Features:** Backup to microSD
+- **Best For:** Privacy-focused users
+
+#### Software Wallets
+
+##### 4. **MetaMask**
+- **Type:** Browser extension & mobile
+- **Networks:** Ethereum, BSC, Polygon, etc.
+- **Features:** DApp integration, token swaps
+- **Best For:** DeFi and Web3 interactions
+
+##### 5. **Trust Wallet**
+- **Type:** Mobile wallet
+- **Features:** Multi-chain support, staking
+- **Security:** Self-custody
+- **Best For:** Mobile crypto management
+
+#### Wallet Security Tools
+
+##### 6. **Pocket Universe**
+- **Type:** Browser extension
+- **Features:** Transaction risk assessment
+- **Best For:** Protecting against malicious signatures
+- **Free:** Yes
+
+##### 7. **Wallet Guard**
+- **Type:** Security suite
+- **Features:** Scam detection, transaction analysis
+- **Best For:** Preventing wallet drains
+
+##### 8. **Blowfish**
+- **Type:** Risk assessment
+- **Features:** Real-time threat detection
+- **Best For:** Web3 wallet protection
+
+#### Threat Detection & Prevention
+
+##### 9. **ScamSniffer**
+- **Type:** Scam detection
+- **Features:** Identifies malicious websites and transactions
+- **Best For:** Real-time protection
+
+##### 10. **GoPlus**
+- **Type:** Security services
+- **Features:** Token security, NFT verification
+- **Best For:** DeFi security checks
+
+### Cryptography Libraries & Tools
+
+#### Python Cryptography
+
+##### 1. **cryptography**
+- **Type:** Python library
+- **Features:** Comprehensive cryptographic recipes
+- **Algorithms:** AES, RSA, ECC, etc.
+- **URL:** https://cryptography.io
+- **Usage:** 20% rise in 2025
+
+##### 2. **PyCryptodome**
+- **Type:** Python library
+- **Features:** Various encryption schemes
+- **Best For:** Implementing crypto in Python
+
+#### General Purpose Libraries
+
+##### 3. **libsodium**
+- **Type:** Modern crypto library
+- **Features:** Easy-to-use, high-security
+- **Languages:** Multiple bindings
+- **Best For:** Secure application development
+
+##### 4. **OpenSSL**
+- **Type:** Cryptography toolkit
+- **Features:** SSL/TLS, comprehensive algorithms
+- **Best For:** Secure communications
+- **Widely Used:** Industry standard
+
+##### 5. **Google Tink**
+- **Type:** Multi-language crypto library
+- **Features:** Misuse-resistant APIs
+- **Languages:** Java, C++, Go, Python
+- **Best For:** Application developers
+
+#### Specialized Tools
+
+##### 6. **GnuPG (GPG)**
+- **Type:** OpenPGP implementation
+- **Features:** Email encryption, file signing
+- **Free:** Yes
+- **Best For:** PGP encryption needs
+
+##### 7. **Intel Cryptography Primitives Library**
+- **Type:** Performance-optimized library
+- **Features:** AES, SM4, SHA, RSA, ECC
+- **Best For:** High-performance applications
+
+### Encryption Standards 2025
+
+#### Current Recommended Algorithms
+
+- **Symmetric Encryption:**
+  - AES-256 (Advanced Encryption Standard)
+  - ChaCha20-Poly1305
+
+- **Asymmetric Encryption:**
+  - RSA-4096
+  - ECC (Elliptic Curve Cryptography)
+  - Ed25519 (EdDSA)
+
+- **Hashing:**
+  - SHA-256, SHA-3
+  - BLAKE2, BLAKE3
+
+### Multi-Signature Wallets
+
+Best practice for securing large amounts:
+
+- **Gnosis Safe** - Ethereum multi-sig
+- **Bitcoin Multi-Sig** - Native Bitcoin support
+- **Casa** - Multi-sig wallet service
+
+**Security Benefit:** Requires multiple private keys to authorize transactions, significantly reducing single point of failure.
+
+### Blockchain Security Statistics 2025
+
+**Critical Findings:**
+- $3.1 billion lost in first 6 months of 2025 (worst year on record)
+- Private key compromises: 43.8% of stolen crypto in 2024
+- Smart contract auditing tools detect only 8-20% of exploitable bugs
+
+**Takeaway:** Manual security reviews remain essential alongside automated tools.
+
+### Best Practices for Crypto Security
+
+#### Wallet Security
+1. Use hardware wallets for large amounts
+2. Never share private keys or seed phrases
+3. Verify all transaction details before signing
+4. Use multi-signature for business accounts
+5. Keep firmware updated
+6. Store recovery phrases offline (metal backup recommended)
+
+#### Smart Contract Security
+1. Always get professional audits for production contracts
+2. Use multiple analysis tools (no single tool catches everything)
+3. Follow established patterns (OpenZeppelin contracts)
+4. Implement access controls and emergency stops
+5. Conduct thorough testing (unit, integration, fuzzing)
+6. Bug bounty programs for production code
+
+#### Development Security
+1. Never roll your own cryptography
+2. Use well-tested, audited libraries
+3. Follow security best practices for each blockchain
+4. Stay updated on latest vulnerabilities
+5. Participate in security communities
+
+### Blockchain Security Resources
+
+- **Smart Contract Security:** https://ethereum.org/en/developers/docs/smart-contracts/security/
+- **Awesome Cryptography:** https://github.com/sobolevn/awesome-cryptography
+- **OpenZeppelin:** https://docs.openzeppelin.com/contracts/
+- **Consensys Best Practices:** https://consensys.github.io/smart-contract-best-practices/
+
+### Major Blockchain Platforms Covered
+
+- **Ethereum** - Leading smart contract platform
+- **Bitcoin** - Original cryptocurrency
+- **Binance Smart Chain (BSC)** - EVM-compatible chain
+- **Polygon** - Ethereum scaling solution
+- **Solana** - High-performance blockchain
+- **Avalanche** - Fast smart contracts
+- **Cardano** - Research-driven blockchain
+- **Polkadot** - Multi-chain protocol
+
+---
+
 ## Learning Paths & Certifications
 
 ### Offensive Security Certifications
@@ -807,10 +1286,24 @@ This document was compiled from the following trusted sources:
 - [Best Malware Analysis Tools 2025 - Web Asha](https://www.webasha.com/blog/what-are-the-best-free-malware-analysis-tools-for-reverse-engineering-and-threat-detection)
 - [Digital Forensics Trends 2025 - Belkasoft](https://belkasoft.com/dfir-trends-2025)
 - [DFIR Training - SANS Institute](https://www.sans.org/cybersecurity-focus-areas/digital-forensics-incident-response)
+- [What is Operational Security - Veritis](https://www.veritis.com/blog/what-is-operational-security-opsec-and-how-does-it-protect-critical-data/)
+- [OPSEC Explained - Medium](https://medium.com/@aasthathakker/opsec-operational-security-04b9a00a8d9b)
+- [OPSEC Best Practices - Fortinet](https://www.fortinet.com/resources/cyberglossary/operational-security)
+- [OPSEC Guide - SANS](https://www.sans.org/blog/what-is-opsec)
+- [Top Smart Contract Audit Tools 2025 - Rapid Innovation](https://www.rapidinnovation.io/post/top-7-smart-contract-audit-tools)
+- [Smart Contract Security Tools Guide - QuillAudits](https://www.quillaudits.com/blog/smart-contract/smart-contract-security-tools-guide)
+- [Best Smart Contract Analysis Tools 2025 - H-X Technologies](https://www.h-x.technology/blog/the-best-smart-contract-analysis-tools-2025)
+- [Smart Contract Auditing Tools - Cyfrin](https://www.cyfrin.io/blog/industry-leading-smart-contract-auditing-and-security-tools)
+- [Blockchain Security Tools 2025 - MonoVM](https://monovm.com/blog/blockchain-security-tools/)
+- [List of Wallet Security Tools - Alchemy](https://www.alchemy.com/dapps/best/wallet-security-tools)
+- [Crypto Wallet Security 2025 - Ledger](https://www.ledger.com/academy/topics/security/crypto-wallet-security-checklist-2025-protect-crypto-with-ledger)
+- [Best Cryptography Tools 2025 - Web Asha](https://www.webasha.com/blog/what-are-the-best-cryptography-tools-for-data-protection)
+- [Cryptography Tools List - CyberExperts](https://cyberexperts.com/cryptography-tools/)
+- [Awesome Cryptography - GitHub](https://github.com/sobolevn/awesome-cryptography)
 
 ---
 
-**Document Version:** 1.0
+**Document Version:** 2.0
 **Last Updated:** November 29, 2025
 **Compiled By:** Claude AI
 **For:** Claude & Jack - Educational Use & Personal Online Safety
