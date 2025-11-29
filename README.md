@@ -63,10 +63,23 @@ See [SECURITY_RESOURCES.md](SECURITY_RESOURCES.md) for:
 - Blockchain and cryptocurrency security (smart contracts, wallets, cryptography)
 - Learning paths and certifications
 
+### Offline Security Resources
+
+Essential tools and practices for working without internet.
+
+See [OFFLINE_SECURITY.md](OFFLINE_SECURITY.md) for:
+- Offline operating systems (Tails, Kali Linux)
+- Offline security tools and password management
+- Offline cryptography and file encryption
+- Creating an offline security lab
+- Air-gapped systems and backup strategies
+- What to download before losing internet access
+
 ### Development Files
 
 - **CLAUDE.MD:** AI assistant documentation and project guidelines
 - **SECURITY_RESOURCES.md:** Comprehensive cybersecurity tools and resources guide
+- **OFFLINE_SECURITY.md:** Offline security tools and practices guide
 - **MONERO.md:** Monero cryptocurrency fork documentation
 - **README.md:** This file
 - **LICENSE:** MIT License
