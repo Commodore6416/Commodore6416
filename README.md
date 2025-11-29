@@ -61,6 +61,7 @@ See [SECURITY_RESOURCES.md](SECURITY_RESOURCES.md) for:
 - AI-powered security tools
 - OPSEC (Operational Security) best practices
 - Blockchain and cryptocurrency security (smart contracts, wallets, cryptography)
+- Specialized security fields (hardware, IoT, SCADA/ICS, automotive, aviation, medical devices, physical security, supply chain, quantum computing)
 - Learning paths and certifications
 
 ### Offline Security Resources
